@@ -36,14 +36,17 @@ html
     }
         img
         {
+            width:100px;
+            height:100px;
             top: 30px;
             border-radius: 50%;
             position:relative;
             left: 45%;
             right: auto;
             box-shadow: 5px 5px 5px 5px #dbc2a4;
-            
+            cursor: zoom-in;
         }
+       
             h1
             {
                 position: relative;
@@ -52,7 +55,7 @@ html
                 font-weight: bold;
                 text-align: center;
                 line-height: 30px;
-
+                
             }
 
                 h2
@@ -62,12 +65,17 @@ html
                     font-family: "lato, sans serif";
                     font-weight: bold;
                     text-align: center;
-                    
+                                        
                 }
                
                     a
                     {
                         color:white;
+                       text-decoration:none;
+                    }
+                    a:hover
+                    {
+                        text-decoration: underline;
                     }
                         .box
                         {
@@ -115,9 +123,11 @@ html
                                             font-family: "lato; sans serif";
                                             font-weight: bold;
                                             color: black;
+                                        }
+                                        h3:hover
+                                        {
                                             border-left: #782221 solid 3px;
                                         }
-
                                             .experience
                                             {
                                                 width:658px;
@@ -127,7 +137,7 @@ html
                                                 border-right: 2px black solid;
                                                 font-size: small;
                                             }
-                                                .intitule
+                                                .intitule  
                                                 {
                                                     
                                                     font-family: "lato";
@@ -147,9 +157,13 @@ html
                                                         align-items: center;
                                                         
                                                     }
-                                                      .reseau
+                                                        .reseau:hover
+                                                        {
+                                                            opacity: 0.5;
+                                                        }
+                                                      .reseau>img
                                                       {
-                                                        box-shadow: none;
-                                                        
-                                                      } 
+                                                       
+                                                        all:initial;
+                                                    } 
                                                       

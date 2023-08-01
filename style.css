@@ -1,0 +1,68 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,400&display=swap');
+@font-face
+{
+    font-family:"lato";
+    src:url("/fonts/lato.ttf")format("truetype");
+    src:url("/fonts/lato.otf")format("opentype");
+}
+
+
+html
+{
+    width: 1176px;
+    margin:20px;
+    padding:10px;
+    font-family: "raleway, sans-serif";
+}
+
+    header
+    {
+        width: 1160px;
+        height: 350px;
+        background-color: #782221;
+        color:white;
+    }
+        img
+        {
+            top: 30px;
+            border-radius: 50%;
+            position:relative;
+            left: 45%;
+            right: auto;
+            box-shadow: 5px 5px 5px 5px #dbc2a4;
+            
+        }
+            h1
+            {
+                position: relative;
+                top: 50px;
+                font-family: "lato, sans serif, bold";
+                text-align: center;
+                line-height: 30px;
+
+            }
+
+                h4
+                {
+                    position: relative;
+                    top: 60px;
+                    font-family: "lato, sans serif, bold";
+                    text-align: center;
+                    
+                }
+               
+                    a
+                    {
+                        color:white;
+                    }
+                        .box
+                        {
+                            position: relative;
+                            top: 90px;
+                            display: flex;
+                            justify-content: space-around;
+                            align-items:center;
+                            background-color: black;
+                            line-height: 1px;
+                        }

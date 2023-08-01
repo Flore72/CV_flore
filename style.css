@@ -27,36 +27,36 @@ html
        right:auto;
       
     }
-    header
-    {         
-       
-        height: 280px;
-        background-color: #782221;
-        color:white;
-    }
-        img
-        {
-            width:100px;
-            height:100px;
-            top: 30px;
-            border-radius: 50%;
-            position:relative;
-            left: 45%;
-            right: auto;
-            box-shadow: 5px 5px 5px 5px #dbc2a4;
-            cursor: zoom-in;
+        header
+        {         
+        
+            height: 280px;
+            background-color: #782221;
+            color:white;
         }
-       
-            h1
+            img
             {
-                position: relative;
-                top: 50px;
-                font-family: "lato, sans serif";
-                font-weight: bold;
-                text-align: center;
-                line-height: 30px;
-                
+                width:100px;
+                height:100px;
+                top: 30px;
+                border-radius: 50%;
+                position:relative;
+                left: 45%;
+                right: auto;
+                box-shadow: 5px 5px 5px 5px #dbc2a4;
+                cursor: zoom-in;
             }
+       
+                h1
+                {
+                    position: relative;
+                    top: 50px;
+                    font-family: "lato, sans serif";
+                    font-weight: bold;
+                    text-align: center;
+                    line-height: 30px;
+                    
+                }
 
                 h2
                 {
@@ -161,9 +161,8 @@ html
                                                         {
                                                             opacity: 0.5;
                                                         }
-                                                      .reseau>img
-                                                      {
-                                                       
-                                                        all:initial;
-                                                    } 
+                                                        .reseau>img
+                                                        {
+                                                            all:initial;
+                                                        } 
                                                       
